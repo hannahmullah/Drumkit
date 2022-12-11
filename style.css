@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Brandon Grotesque', Arial, sans-serif;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.key {
+    border: 6px solid #2d2d2d;
+    background-color: #e0e0e0;
+    width: 100px;
+    height: 100px;
+}
+
+.drumkit {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+}
